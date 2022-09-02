@@ -8,6 +8,8 @@ def get_data()
     papers = text_cleaning(papers)
     
     return papers
+
+
 def generate_wordcloud():
     
     papers = get_data()
